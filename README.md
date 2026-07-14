@@ -1,4 +1,4 @@
-# Comparison-machine-learning-models-for-Bitcoin-price-changes
+# Bitcoin-Price-Forecasting-with-Machine-Learning
 Basically the project consists in comparing machine learning models for **binary classification problem** of Bitcoin price changes.
 The models used are neural networks (built-in version), logistic regression, random forest and bayesian model.
 
