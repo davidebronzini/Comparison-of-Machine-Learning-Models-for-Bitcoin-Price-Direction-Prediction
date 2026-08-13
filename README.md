@@ -1,23 +1,7 @@
-# Bitcoin-Price-Forecasting-with-Machine-Learning
-Basically the project consists in comparing machine learning models for **binary classification problem** of Bitcoin price changes.
-The models used are neural networks (built-in version), logistic regression, random forest and bayesian model.
+Developed a comparative study of several machine learning models for predicting daily Bitcoin price movements as a binary classification problem.
 
+The project evaluates Logistic Regression, Random Forest, Bayesian Models and Neural Networks using historical cryptocurrency market data (BTC, ETH, XRP, LTC and XLM, 2016–2019).
 
-##The R libraries used:
-library(readxl)
-library(tseries)
-library(nnet)
-library(neuralnet)
-library(randomForest)
-library(rstanarm)
-library(ggplot2)
+The objective was to assess the predictive performance of different statistical and machine learning approaches for financial time series classification.
 
-dataset:
-Daily close prices of ETH	BTC	XRP	LTC	XLM from 01/01/2016 to 09/30/2019
-
-
-
-
-##LinkedIn link for see the presentation:
-
-www.linkedin.com/in/davide-bronzini-34a42528b
+The Neural Network achieved the lowest test error among all the evaluated models. However, this performance comes at the cost of reduced interpretability, a well-known limitation of deep learning models.
